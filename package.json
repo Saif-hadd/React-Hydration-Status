@@ -1,0 +1,61 @@
+{
+  "name": "@saifhadded/react-hydration-status",
+  "version": "1.0.3",
+  "description": "Une bibliothèque React simple pour gérer l'état d'hydratation SSR",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "test": "jest",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "react",
+    "hydration",
+    "ssr",
+    "react-hydration-status",
+    "react-hydration",
+    "server-side-rendering"
+  ],
+  "author": "Saif Eddine Keraa <haddedseif746@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2 || ^18.0.0",
+    "react-dom": "^17.0.2 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^12.1.5",
+    "@types/jest": "^27.5.2",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "@types/testing-library__react": "^10.2.0",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^27.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
