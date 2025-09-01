@@ -6,19 +6,19 @@
 
 ---
 
-## 📖 Présentation
+## 📖 Overview
 
-`@saifhadded/react-hydration-status` est une **petite bibliothèque React** permettant de **détecter l'état d'hydratation côté client** dans un contexte SSR (Server-Side Rendering).  
+`@saifhadded/react-hydration-status` is a **small React library** designed to **detect client-side hydration status** in a SSR (Server-Side Rendering) context.  
 
-Elle est idéale pour afficher des composants uniquement côté client après que le rendu serveur soit terminé.
+It is ideal for rendering components **only on the client** after the server-side rendering is complete.
 
 ---
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-- Détecte l'hydratation du composant après le rendu SSR  
-- Permet de conditionner le rendu d'un composant client-only  
-- Léger et facile à utiliser  
+- Detects component hydration after SSR rendering  
+- Allows conditional rendering of client-only components  
+- Lightweight and easy to use  
 
 ---
 
@@ -26,5 +26,5 @@ Elle est idéale pour afficher des composants uniquement côté client après qu
 
 ```bash
 npm install @saifhadded/react-hydration-status
-# ou
+# or
 yarn add @saifhadded/react-hydration-status
