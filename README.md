@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # @saifhadded/react-hydration-status
 
 Une petite bibliothèque React pour détecter l'état d'hydratation côté client dans un contexte SSR (Server-Side Rendering).
@@ -12,3 +13,6 @@ Une petite bibliothèque React pour détecter l'état d'hydratation côté clien
 
 ```bash
 npm install @saifhadded/react-hydration-status
+=======
+# React-Hydration-Status
+>>>>>>> 1758f27133b77960dc8afd285cfede25f5cac7ad
